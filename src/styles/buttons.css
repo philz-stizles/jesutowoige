@@ -1,0 +1,13 @@
+.btn-link{
+    background-color: transparent;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.6px;
+    margin-top: 15px;
+    outline: 0;
+    text-align: left;
+    text-decoration: none;
+    transition: all .4s;
+}

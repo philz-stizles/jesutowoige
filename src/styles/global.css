@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*, 
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #151515;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a{
+    text-decoration: none;
+    outline: 0;
+    color: inherit;
+}
+.list-hr{
+    list-style: none;
+}
+
+.list-hr > li{
+    display: inline-block;
+    padding: 1.45rem; 
+}
+
+.btn{
+    -webkit-font-smoothing: antialiased;
+  background-color: #080b1a;
+  border: 3px solid #080b1a;
+  border-radius: 30px;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-family: Roboto,sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 51px;
+  list-style: outside none none;
+  margin: 0;
+  max-height: none;
+  max-width: none;
+  min-height: 0;
+  min-width: 0;
+  opacity: 1;
+  outline: 0;
+  padding: 0 40px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+  transform-origin: 50% 50% 0;
+  transition: none 0s ease 0s;
+  user-select: none;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.header > cta{
+    -webkit-font-smoothing: antialiased;
+  border-width: 0;
+  color: #151515;
+  display: block;
+  font-size: 60px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 70px;
+  margin: 0;
+  max-height: none;
+  max-width: 650px;
+  min-height: 0;
+  min-width: 650px;
+  opacity: 1;
+  padding: 0;
+  position: relative;
+  text-align: left;
+  transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+  transform-origin: 50% 50% 0;
+  transition: none 0s ease 0s;
+  user-select: none;
+  white-space: normal;
+  z-index: 1;
+}
+
+.img-1{
+    border-style: none;
+    line-height: 24px;
+    max-width: 100%;
+    text-align: left;
+    transition: all .4s;
+    vertical-align: middle;
+    width: 100%;
+}

@@ -1,33 +1,20 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Cta from "./cta"
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
+      background: `grey`,
+      height: `80vh`,
+      position: `relative`
     }}
   >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
+    <Cta 
+      heading="Enhance your business with us"
+      subHeading="We always try to provide the best cutting-edge ICT solutions for clients for rapid improvement in performance"
+      btnText="Learn more"
+    ></Cta>
   </header>
 )
 
